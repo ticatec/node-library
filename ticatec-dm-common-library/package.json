@@ -1,0 +1,23 @@
+{
+  "name": "@ticatec/dm-common-library",
+  "version": "1.0.0",
+  "description": "A set of common classes for node express apps.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "ticatec",
+    "common",
+    "database",
+    "utils"
+  ],
+  "author": "Henry Feng",
+  "license": "MIT",
+  "dependencies": {
+    "dmdb": "^1.0.15238",
+    "log4js": "^6.7.0",
+    "@ticatec/node-common-library": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}

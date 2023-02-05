@@ -1,0 +1,21 @@
+{
+  "name": "@ticatec/express-exception",
+  "version": "1.0.0",
+  "description": "A set of reusable errors for node express apps.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "express",
+    "exception handler"
+  ],
+  "author": "Henry Feng",
+  "license": "MIT",
+  "dependencies": {
+    "ip": "^1.1.8",
+    "log4js": "^6.7.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@ticatec/mysql-common-library",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc",
+    "publish": "npm publish --access public"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "log4js": "^6.7.0",
+    "mysql2": "^2.3.3",
+    "@ticatec/node-common-library": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
