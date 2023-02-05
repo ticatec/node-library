@@ -15,8 +15,16 @@
     "database",
     "utils"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ticatec/node-library.git"
+  },
   "author": "Henry Feng",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ticatec/node-library/issues"
+  },
+  "homepage": "https://github.com/ticatec/node-library/tree/main/ticatec-node-common-library",
   "dependencies": {
     "log4js": "^6.7.0",
     "uuid": "^9.0.0"

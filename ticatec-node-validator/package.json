@@ -8,13 +8,21 @@
     "build": "rm -rf ./lib && tsc",
     "publish": "npm publish --access public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ticatec/node-library.git"
+  },
+  "author": "Henry Feng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ticatec/node-library/issues"
+  },
+  "homepage": "https://github.com/ticatec/node-library/tree/main/ticatec-node-validator",
   "keywords": [
     "express",
     "validator",
     "validation"
   ],
-  "author": "Henry Feng",
-  "license": "MIT",
   "dependencies": {
     "sprintf-js": "^1.1.2",
     "@ticatec/express-exception": "^1.0.0"

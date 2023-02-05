@@ -7,6 +7,16 @@
     "build": "rm -rf ./lib && tsc",
     "publish": "npm publish --access public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ticatec/node-library.git"
+  },
+  "author": "Henry Feng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ticatec/node-library/issues"
+  },
+  "homepage": "https://github.com/ticatec/node-library/tree/main/ticatec-mysql-common-library",
   "dependencies": {
     "bluebird": "^3.7.2",
     "log4js": "^6.7.0",
